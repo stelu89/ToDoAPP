@@ -30,7 +30,10 @@ public class App {
             }
         });
     }
-    class AscoltaEventiCategoria implements CategoriaEventListener {
+    
+}
+
+class AscoltaEventiCategoria implements CategoriaEventListener {
 
         @Override
         public void onCreate(Categoria c) {
@@ -48,4 +51,3 @@ public class App {
         }
         
     }
-}
